@@ -63,6 +63,8 @@ function Toggler(props: {
 }
 
 export default function Sidebar() {
+  console.log("Sidebar component rendered");
+  console.log("Sidebar component rendered");
   return (
     <Sheet
       className="Sidebar"
